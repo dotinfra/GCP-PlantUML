@@ -1,0 +1,29 @@
+sprite $bucket [256x256/16z] {
+xC610000082W_QaNgG8000000000Phy-R1Y8GIWCdmljzjytlNSZFHGX_njyo25SvcedOdGAJwXvz8r3qf2e0FG0FouQuXDdywkKd_M5uzAuwgz-pkdNudZy
+cVm2NtruFtu9SWQ__nVGC_lvkvyp-_Khl-RsD-Jpn_lnFm3AxPS4VkW2u9p-wP_-wP_-wP_-wP_-xnccRtx3j0ms_Ph9h-D-oUINSJzdylEulsVoz-aVhMNo
+jt5_KKXyazYwomplhyjuQB_eUihW_iMHOFrYwxL_z3FMR-jDXlMhnqzGlnpSJ7GSX47zul5tgF-WfhvFuNxo-1lKl-TpFxP_2r1_z_Wht4_z58FzpUClSVxE
+1lNNnLFG-pz4K7_n-_7xxvG0_OihWV__sUq06EPNdvy3xX--7S2V-Gdgb-S14CZFFdyF-VwHsm48n4y-Vulv_fL-as3E7rSLx3-agaBW0JIVlmJvLMy7m8Zp
+nrUON--s8E3y-NV__G0KSFvuaZY_0hUWUlqSveTkGV7wASmFtOBizVSmFtGBTg-_AJwxJHnR4EYlqNw3RC7czPTmlobW2zR5MxpVRCjDdT185CC03EsLfCkV
+y7Ae8rdppU3fSFy5ntCb-F_01RlzAVZRBtZV_I7usozOF-Nlls2--xVWRx_WUVSlmGyksEwVWh_zWlkd_FqNdECzmTz-mG4gqSyloFqf-9ilU8a_17_p1Olu
+Z-td5mpYtxQVN_0G_xBz_8AR-AVjvnTSWsJx-GNd1_paWWDLhfzVy39_Ydv-GUuFryylcCn_N3-_O33_TltyWeVvb-ld5zpCFrq_l-0QBDVFBpXW9VZ11R_b
+vnUyr9-cdr-mg3zCFxzWKlys_Vo2X_gNu0SN_9QVNt1J_pJz_89hq4m_l-30bUZd5-J-zFpyWfVxm_Fp2nRt7y_FBnZSlpq_l-1_k_LsR3a8n52qdpJEF-59
+m5zp91SgxivWsQ2YVlV75txO2kBz_fqVlu9fl_UT7x-2BkN7hw01cW_ys1N4-fU2_tq5DyBV2lxt5Ho4lnJyxolO27yg-DzNi13-KF2_hs0Y_AxWVr_1C4GA
+_lSLT2a_VWKn_k7xMIiOnp-07dpe3z1yFsy5y_07qCDee1yWfVpu3n1w_cStRWESx-UkeFsOfFzPCFz8-fz13S3Iz6y7_7vX_vWbv07Gclvbe5BJNoX_NEvt
+JNzUxdT3fUatM7EvVodwDyxVYlx1-KlHtpX_AleBvmz5V-ByhkWFmwNezylz1cpq_1lfNvVxMy-_aFxIypVIdth-Glf3pvz8l-lvmv3f-Htg7pc_tUtVMFzI
+ym_Mtsh-XVMdch_-_CX2pPzOlwlvmx2f-GtSNEvVMlwDzhUMVz3-ql8tsfzQ_aBxutA_Q_dJq6dv_NA_mPlB_Kl9l_7-Ll8FtbzA_iRxKybVU7ye-HFlToL_
+63ublr_kDqAZuzyC_zBn3yFVElx5y9UElnd-rF4Nmnyw_cJuNSSVnaZ7RvJcSlzIyU_B_SFnjuf_SVofuY-EFpJyV_xa-5t5xyP9nM-avdB_ql1lbhyr_CFo
+buQ_MVxKy1VB7nh-PFbTmn_6IiFlb_kDrYZuDy-_BlUtWd_n_ANWRvu_5Vp5yuU2Ftb-L_27yLBm--L-8pRd-pVJt-VxX-dFy_t5zFlv_ZHcSxpVgDNf_ZPk
+f_kTxC-p_Mtirid-CNe-v_gtcze7W5z-VhxEzE-mZweJ_MqVLgVvs-tRejOSuj-T_ytu1m
+}
+
+
+skinparam folder<<bucket>> {
+    BackgroundColor White
+}
+
+
+!define BUCKET(alias) PUML_ENTITY(folder,GCP_COLOR,bucket,alias,alias)
+
+!definelong BUCKET(alias,label,e_type="folder",e_color="GCP_COLOR",e_stereo="bucket",e_sprite="bucket")
+PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo)
+!enddefinelong
