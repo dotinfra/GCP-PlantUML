@@ -11,7 +11,7 @@ hj16lsxu1TNnZBEqCnUIsseuPsX2ZJgBWUQTvSkyThORCm5Fw4DzPthEUEUOsvp8AJ7DVkSodv7KtbcR
 VQbKyv-Y7Eax4vtpwqk05ivX4UUSUyXKME51dEkYynS
 }
 
-skinparam node<<CloudFlare>> {
+skinparam cloud<<CloudFlare>> {
     BackgroundColor White
 }
 

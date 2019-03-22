@@ -1,4 +1,4 @@
-sprite $bucket [256x256/16z] {
+sprite $Bucket [256x256/16z] {
 xC610000082W_QaNgG8000000000Phy-R1Y8GIWCdmljzjytlNSZFHGX_njyo25SvcedOdGAJwXvz8r3qf2e0FG0FouQuXDdywkKd_M5uzAuwgz-pkdNudZy
 cVm2NtruFtu9SWQ__nVGC_lvkvyp-_Khl-RsD-Jpn_lnFm3AxPS4VkW2u9p-wP_-wP_-wP_-wP_-xnccRtx3j0ms_Ph9h-D-oUINSJzdylEulsVoz-aVhMNo
 jt5_KKXyazYwomplhyjuQB_eUihW_iMHOFrYwxL_z3FMR-jDXlMhnqzGlnpSJ7GSX47zul5tgF-WfhvFuNxo-1lKl-TpFxP_2r1_z_Wht4_z58FzpUClSVxE
@@ -17,13 +17,13 @@ f_kTxC-p_Mtirid-CNe-v_gtcze7W5z-VhxEzE-mZweJ_MqVLgVvs-tRejOSuj-T_ytu1m
 }
 
 
-skinparam folder<<bucket>> {
+skinparam folder<<Bucket>> {
     BackgroundColor White
 }
 
 
-!define BUCKET(alias) PUML_ENTITY(folder,GCP_COLOR,bucket{scale=GCP_SCALE},alias,alias)
+!define BUCKET(alias) PUML_ENTITY(folder,GCP_COLOR,Bucket{scale=GCP_SCALE},alias,alias)
 
-!definelong BUCKET(alias,label,e_type="folder",e_color="GCP_COLOR",e_stereo="bucket",e_sprite="bucket",e_scale="0.3")
+!definelong BUCKET(alias,label,e_type="folder",e_color="GCP_COLOR",e_stereo="Bucket",e_sprite="Bucket",e_scale="0.3")
 PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo,e_scale)
 !enddefinelong
