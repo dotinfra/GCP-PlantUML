@@ -86,6 +86,6 @@ skinparam agent<<Xamarin>> {
 
 !define XAMARIN(alias) PUML_ENTITY(agent,#4090D7,Xamarin,alias,Xamarin)
 
-!definelong XAMARIN(alias,label,e_type="agent",e_color="#4090D7",e_stereo="Xamarin",e_sprite="Xamarin")
-PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo)
+!definelong XAMARIN(alias,label,e_type="agent",e_color="#4090D7",e_stereo="Xamarin",e_sprite="Xamarin",e_scale="1")
+PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo,e_scale)
 !enddefinelong

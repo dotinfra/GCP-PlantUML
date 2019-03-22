@@ -60,11 +60,12 @@ FFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 
 skinparam agent<<user>> {
     BorderColor transparent
+    BackgroundColor White
 }
 
 
 !define USER(alias) PUML_ENTITY(agent,#D6D6D6,user,alias,user)
 
-!definelong USER(alias,label,e_type="agent",e_color="#D6D6D6",e_stereo="user",e_sprite="user")
-PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo)
+!definelong USER(alias,label,e_type="agent",e_color="#D6D6D6",e_stereo="user",e_sprite="user",e_scale="1")
+PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo,e_scale)
 !enddefinelong

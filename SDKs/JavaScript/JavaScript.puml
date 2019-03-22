@@ -86,6 +86,6 @@ skinparam agent<<JavaScript>> {
 
 !define JAVASCRIPT(alias) PUML_ENTITY(agent,#EE472A,JavaScript,alias,JavaScript)
 
-!definelong JAVASCRIPT(alias,label,e_type="agent",e_color="#EE472A",e_stereo="JavaScript",e_sprite="JavaScript")
-PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo)
+!definelong JAVASCRIPT(alias,label,e_type="agent",e_color="#EE472A",e_stereo="JavaScript",e_sprite="JavaScript",e_scale="1")
+PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo,e_scale)
 !enddefinelong

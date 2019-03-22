@@ -57,11 +57,14 @@ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0
 }
 
-
+skinparam agent<<client>> {
+    BorderColor transparent
+    BackgroundColor White
+}
 
 
 !define CLIENT(alias) PUML_ENTITY(agent,#7E7D7D,client,alias,client)
 
-!definelong CLIENT(alias,label,e_type="agent",e_color="#7E7D7D",e_stereo="client",e_sprite="client")
-PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo)
+!definelong CLIENT(alias,label,e_type="agent",e_color="#7E7D7D",e_stereo="client",e_sprite="client",e_scale="1")
+PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo,e_scale)
 !enddefinelong

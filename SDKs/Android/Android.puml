@@ -86,6 +86,6 @@ skinparam agent<<Android>> {
 
 !define ANDROID(alias) PUML_ENTITY(agent,#96BF3D,Android,alias,Android)
 
-!definelong ANDROID(alias,label,e_type="agent",e_color="#96BF3D",e_stereo="Android",e_sprite="Android")
-PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo)
+!definelong ANDROID(alias,label,e_type="agent",e_color="#96BF3D",e_stereo="Android",e_sprite="Android",e_scale="1")
+PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo,e_scale)
 !enddefinelong

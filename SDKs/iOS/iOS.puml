@@ -86,6 +86,6 @@ skinparam agent<<iOS>> {
 
 !define IOS(alias) PUML_ENTITY(agent,#7E7D7D,iOS,alias,iOS)
 
-!definelong IOS(alias,label,e_type="agent",e_color="#7E7D7D",e_stereo="iOS",e_sprite="iOS")
-PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo)
+!definelong IOS(alias,label,e_type="agent",e_color="#7E7D7D",e_stereo="iOS",e_sprite="iOS",e_scale="1")
+PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo,e_scale)
 !enddefinelong
