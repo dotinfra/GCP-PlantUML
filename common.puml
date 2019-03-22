@@ -24,6 +24,6 @@ Params:
 !define PUML_ENTITY(e_type,e_color,e_sprite,e_label,e_alias,e_stereo,e_scale) e_type "<color:e_color><$e_sprite{scale=e_scale}></color>\r e_label" as e_alias <<e_stereo>>
 
 !define GCP_COLOR #4285f4
-!define GCP_SCALE 0.25
+!define GCP_SCALE 0.3
 
 skinparam defaultTextAlignment center
