@@ -22,8 +22,8 @@ skinparam folder<<bucket>> {
 }
 
 
-!define BUCKET(alias) PUML_ENTITY(folder,GCP_COLOR,bucket,alias,alias)
+!define BUCKET(alias) PUML_ENTITY(folder,GCP_COLOR,bucket{scale=GCP_SCALE},alias,alias)
 
-!definelong BUCKET(alias,label,e_type="folder",e_color="GCP_COLOR",e_stereo="bucket",e_sprite="bucket")
+!definelong BUCKET(alias,label,e_type="folder",e_color="GCP_COLOR",e_stereo="bucket",e_sprite="bucket{scale=GCP_SCALE}")
 PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo)
 !enddefinelong

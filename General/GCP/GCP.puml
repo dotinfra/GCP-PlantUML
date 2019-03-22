@@ -34,8 +34,8 @@ skinparam cloud<<GoogleCloudPlatform>> {
 }
 
 
-!define GOOGLECLOUDPLATFORM(alias) PUML_ENTITY(cloud,GCP_COLOR,GoogleCloudPlatform,alias,GoogleCloudPlatform)
+!define GOOGLECLOUDPLATFORM(alias) PUML_ENTITY(cloud,GCP_COLOR,GoogleCloudPlatform{scale=GCP_SCALE},alias,GoogleCloudPlatform)
 
-!definelong GOOGLECLOUDPLATFORM(alias,label,e_type="cloud",e_color="GCP_COLOR",e_stereo="GoogleCloudPlatform",e_sprite="GoogleCloudPlatform")
+!definelong GOOGLECLOUDPLATFORM(alias,label,e_type="cloud",e_color="GCP_COLOR",e_stereo="GoogleCloudPlatform",e_sprite="GoogleCloudPlatform{scale=GCP_SCALE}")
 PUML_ENTITY(e_type,e_color,e_sprite,label,alias,e_stereo)
 !enddefinelong
